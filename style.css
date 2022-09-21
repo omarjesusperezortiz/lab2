@@ -1,10 +1,15 @@
 body {
   background-color: black;
+  font-family: Arial, Helvetica, sans-serif;
+  width: 100%;
+  margin: 0 !important;
 }
 
 header {
   font-size: 20px;
   width: 100%;
+  margin: 0 !important;
+  padding: 0 !important;
 }
 header .logo {
   fill: white;
@@ -16,10 +21,13 @@ header .logoadobe {
 }
 
 header {
+  padding: 10px 5px 10px 5px;
   width: 100%;
 }
 header ul {
   margin: 0px;
+  padding: 10px;
+  background: linear-gradient(180deg, rgb(0, 0, 0) 0%, rgba(255, 0, 0, 0) 100%);
 }
 header ul li {
   font-family: Arial, Helvetica, sans-serif;
@@ -31,4 +39,108 @@ header ul li {
   text-decoration: none;
   display: inline;
   padding: 10px;
+}
+
+input {
+  border-radius: 20px;
+  width: 150px;
+  height: 30px;
+  color: white;
+  background-color: rgba(255, 255, 255, 0.308);
+  border: none;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 15px;
+}
+
+.compartir {
+  border-radius: 20px;
+  width: 150px;
+  height: 30px;
+  color: black;
+  background-color: white;
+  border: none;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 15px;
+  padding: 7px 20px 7px 20px !important;
+}
+
+.grid {
+  color: white;
+  display: inline-grid !important;
+  grid-template: "item1 item2 item3" "item4 item5 item6";
+  grid-gap: 20px;
+  padding: 20px;
+  position: absolute;
+}
+
+.info {
+  width: 300px;
+  background-color: white;
+  height: 500px;
+  display: inline-block;
+  padding: 30px 10px 30px 10px;
+  margin-top: -100px;
+  border-radius: 20px;
+  box-shadow: 10px 10px 5px rgba(28, 28, 28, 0.1254901961);
+}
+
+.user-image {
+  aspect-ratio: 1;
+  height: 100px;
+  background-color: red;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  margin: auto;
+}
+
+.user-name {
+  justify-content: center;
+  display: flex;
+  margin: auto;
+  padding: 10px;
+  width: 60%;
+  font-size: 20px;
+}
+
+.user-country {
+  margin: auto;
+  width: 60%;
+  font-size: medium;
+  justify-content: center;
+  display: flex;
+}
+
+.user-info {
+  justify-content: center;
+  display: flex;
+  margin: auto;
+  padding: 10px;
+  font-size: 15px;
+}
+
+#grid-item {
+  aspect-ratio: 1;
+  width: 250px;
+  background-color: aqua;
+}
+
+.img-grid {
+  width: 100%;
+  height: 100%;
+}
+
+main {
+  padding: 0px 50px 0px 50px;
+  margin: auto;
+  justify-content: center;
+  background-color: antiquewhite;
+  height: 100vh;
+}
+
+.menu {
+  padding: 0 0 150px 0;
+  background-image: url(/439457b7-7b60-4f5b-8fc9-60f9a6ed45a4_rwc_-2x660x3437x367x3437.jpg);
+  margin: auto;
+  align-items: center;
 }/*# sourceMappingURL=style.css.map */
